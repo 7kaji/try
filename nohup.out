@@ -1,0 +1,495 @@
+=> Booting Thin
+=> Rails 4.0.0.rc1 application starting in production on http://0.0.0.0:3000
+=> Run `rails server -h` for more startup options
+=> Ctrl-C to shutdown server
+>> Thin web server (v1.5.1 codename Straight Razor)
+>> Maximum connections set to 1024
+>> Listening on 0.0.0.0:3000, CTRL+C to stop
+>> Stopping ...
+Exiting
+=> Booting Thin
+=> Rails 4.0.0.rc1 application starting in production on http://0.0.0.0:3000
+=> Run `rails server -h` for more startup options
+=> Ctrl-C to shutdown server
+>> Thin web server (v1.5.1 codename Straight Razor)
+>> Maximum connections set to 1024
+>> Listening on 0.0.0.0:3000, CTRL+C to stop
+I, [2013-05-27T11:27:20.396782 #40888]  INFO -- : Started GET "/pictures" for 210.156.40.65 at 2013-05-27 11:27:20 +0900
+I, [2013-05-27T11:27:20.650556 #40888]  INFO -- : Processing by PicturesController#index as HTML
+I, [2013-05-27T11:27:20.908166 #40888]  INFO -- :   Rendered pictures/index.html.erb within layouts/application (253.3ms)
+I, [2013-05-27T11:27:20.997989 #40888]  INFO -- : Completed 200 OK in 347ms (Views: 190.2ms | ActiveRecord: 155.2ms)
+I, [2013-05-27T11:27:32.464399 #40888]  INFO -- : Started GET "/pictures" for 210.156.40.65 at 2013-05-27 11:27:32 +0900
+I, [2013-05-27T11:27:32.467076 #40888]  INFO -- : Processing by PicturesController#index as HTML
+I, [2013-05-27T11:27:32.484580 #40888]  INFO -- :   Rendered pictures/index.html.erb within layouts/application (16.1ms)
+I, [2013-05-27T11:27:32.486115 #40888]  INFO -- : Completed 200 OK in 19ms (Views: 17.6ms | ActiveRecord: 0.4ms)
+I, [2013-05-27T11:27:35.688392 #40888]  INFO -- : Started GET "/pictures" for 210.156.40.65 at 2013-05-27 11:27:35 +0900
+I, [2013-05-27T11:27:35.690296 #40888]  INFO -- : Processing by PicturesController#index as HTML
+I, [2013-05-27T11:27:35.708358 #40888]  INFO -- :   Rendered pictures/index.html.erb within layouts/application (16.7ms)
+I, [2013-05-27T11:27:35.709798 #40888]  INFO -- : Completed 200 OK in 19ms (Views: 18.0ms | ActiveRecord: 0.6ms)
+I, [2013-05-27T11:27:46.621633 #40888]  INFO -- : Started GET "/pictures" for 210.156.40.65 at 2013-05-27 11:27:46 +0900
+I, [2013-05-27T11:27:46.623484 #40888]  INFO -- : Processing by PicturesController#index as HTML
+I, [2013-05-27T11:27:46.681962 #40888]  INFO -- :   Rendered pictures/index.html.erb within layouts/application (56.7ms)
+I, [2013-05-27T11:27:46.683395 #40888]  INFO -- : Completed 200 OK in 60ms (Views: 58.0ms | ActiveRecord: 0.5ms)
+I, [2013-05-27T11:28:28.965011 #40888]  INFO -- : Started GET "/pictures" for 210.156.40.65 at 2013-05-27 11:28:28 +0900
+I, [2013-05-27T11:28:28.967406 #40888]  INFO -- : Processing by PicturesController#index as HTML
+I, [2013-05-27T11:28:28.982013 #40888]  INFO -- :   Rendered pictures/index.html.erb within layouts/application (13.3ms)
+I, [2013-05-27T11:28:28.983396 #40888]  INFO -- : Completed 200 OK in 16ms (Views: 14.6ms | ActiveRecord: 0.5ms)
+I, [2013-05-27T11:30:29.064951 #40888]  INFO -- : Started GET "/api/" for 210.156.40.65 at 2013-05-27 11:30:29 +0900
+F, [2013-05-27T11:30:29.067236 #40888] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/api"):
+  vendor/bundle/ruby/2.0.0/gems/actionpack-4.0.0.rc1/lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  vendor/bundle/ruby/2.0.0/gems/actionpack-4.0.0.rc1/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  vendor/bundle/ruby/2.0.0/gems/railties-4.0.0.rc1/lib/rails/rack/logger.rb:38:in `call_app'
+  vendor/bundle/ruby/2.0.0/gems/railties-4.0.0.rc1/lib/rails/rack/logger.rb:21:in `block in call'
+  vendor/bundle/ruby/2.0.0/gems/activesupport-4.0.0.rc1/lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  vendor/bundle/ruby/2.0.0/gems/activesupport-4.0.0.rc1/lib/active_support/tagged_logging.rb:25:in `tagged'
+  vendor/bundle/ruby/2.0.0/gems/activesupport-4.0.0.rc1/lib/active_support/tagged_logging.rb:67:in `tagged'
+  vendor/bundle/ruby/2.0.0/gems/railties-4.0.0.rc1/lib/rails/rack/logger.rb:21:in `call'
+  vendor/bundle/ruby/2.0.0/gems/actionpack-4.0.0.rc1/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  vendor/bundle/ruby/2.0.0/gems/rack-1.5.2/lib/rack/methodoverride.rb:21:in `call'
+  vendor/bundle/ruby/2.0.0/gems/rack-1.5.2/lib/rack/runtime.rb:17:in `call'
+  vendor/bundle/ruby/2.0.0/gems/activesupport-4.0.0.rc1/lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  vendor/bundle/ruby/2.0.0/gems/actionpack-4.0.0.rc1/lib/action_dispatch/middleware/static.rb:64:in `call'
+  vendor/bundle/ruby/2.0.0/gems/railties-4.0.0.rc1/lib/rails/engine.rb:511:in `call'
+  vendor/bundle/ruby/2.0.0/gems/railties-4.0.0.rc1/lib/rails/application.rb:96:in `call'
+  vendor/bundle/ruby/2.0.0/gems/rack-1.5.2/lib/rack/content_length.rb:14:in `call'
+  vendor/bundle/ruby/2.0.0/gems/thin-1.5.1/lib/thin/connection.rb:81:in `block in pre_process'
+  vendor/bundle/ruby/2.0.0/gems/thin-1.5.1/lib/thin/connection.rb:79:in `catch'
+  vendor/bundle/ruby/2.0.0/gems/thin-1.5.1/lib/thin/connection.rb:79:in `pre_process'
+  vendor/bundle/ruby/2.0.0/gems/thin-1.5.1/lib/thin/connection.rb:54:in `process'
+  vendor/bundle/ruby/2.0.0/gems/thin-1.5.1/lib/thin/connection.rb:39:in `receive_data'
+  vendor/bundle/ruby/2.0.0/gems/eventmachine-1.0.3/lib/eventmachine.rb:187:in `run_machine'
+  vendor/bundle/ruby/2.0.0/gems/eventmachine-1.0.3/lib/eventmachine.rb:187:in `run'
+  vendor/bundle/ruby/2.0.0/gems/thin-1.5.1/lib/thin/backends/base.rb:63:in `start'
+  vendor/bundle/ruby/2.0.0/gems/thin-1.5.1/lib/thin/server.rb:159:in `start'
+  vendor/bundle/ruby/2.0.0/gems/rack-1.5.2/lib/rack/handler/thin.rb:16:in `run'
+  vendor/bundle/ruby/2.0.0/gems/rack-1.5.2/lib/rack/server.rb:264:in `start'
+  vendor/bundle/ruby/2.0.0/gems/railties-4.0.0.rc1/lib/rails/commands/server.rb:84:in `start'
+  vendor/bundle/ruby/2.0.0/gems/railties-4.0.0.rc1/lib/rails/commands.rb:80:in `block in <top (required)>'
+  vendor/bundle/ruby/2.0.0/gems/railties-4.0.0.rc1/lib/rails/commands.rb:75:in `tap'
+  vendor/bundle/ruby/2.0.0/gems/railties-4.0.0.rc1/lib/rails/commands.rb:75:in `<top (required)>'
+  bin/rails:4:in `require'
+  bin/rails:4:in `<main>'
+
+
+I, [2013-05-27T11:30:33.283349 #40888]  INFO -- : Started GET "/" for 210.156.40.65 at 2013-05-27 11:30:33 +0900
+F, [2013-05-27T11:30:33.285573 #40888] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/"):
+  vendor/bundle/ruby/2.0.0/gems/actionpack-4.0.0.rc1/lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  vendor/bundle/ruby/2.0.0/gems/actionpack-4.0.0.rc1/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  vendor/bundle/ruby/2.0.0/gems/railties-4.0.0.rc1/lib/rails/rack/logger.rb:38:in `call_app'
+  vendor/bundle/ruby/2.0.0/gems/railties-4.0.0.rc1/lib/rails/rack/logger.rb:21:in `block in call'
+  vendor/bundle/ruby/2.0.0/gems/activesupport-4.0.0.rc1/lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  vendor/bundle/ruby/2.0.0/gems/activesupport-4.0.0.rc1/lib/active_support/tagged_logging.rb:25:in `tagged'
+  vendor/bundle/ruby/2.0.0/gems/activesupport-4.0.0.rc1/lib/active_support/tagged_logging.rb:67:in `tagged'
+  vendor/bundle/ruby/2.0.0/gems/railties-4.0.0.rc1/lib/rails/rack/logger.rb:21:in `call'
+  vendor/bundle/ruby/2.0.0/gems/actionpack-4.0.0.rc1/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  vendor/bundle/ruby/2.0.0/gems/rack-1.5.2/lib/rack/methodoverride.rb:21:in `call'
+  vendor/bundle/ruby/2.0.0/gems/rack-1.5.2/lib/rack/runtime.rb:17:in `call'
+  vendor/bundle/ruby/2.0.0/gems/activesupport-4.0.0.rc1/lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  vendor/bundle/ruby/2.0.0/gems/actionpack-4.0.0.rc1/lib/action_dispatch/middleware/static.rb:64:in `call'
+  vendor/bundle/ruby/2.0.0/gems/railties-4.0.0.rc1/lib/rails/engine.rb:511:in `call'
+  vendor/bundle/ruby/2.0.0/gems/railties-4.0.0.rc1/lib/rails/application.rb:96:in `call'
+  vendor/bundle/ruby/2.0.0/gems/rack-1.5.2/lib/rack/content_length.rb:14:in `call'
+  vendor/bundle/ruby/2.0.0/gems/thin-1.5.1/lib/thin/connection.rb:81:in `block in pre_process'
+  vendor/bundle/ruby/2.0.0/gems/thin-1.5.1/lib/thin/connection.rb:79:in `catch'
+  vendor/bundle/ruby/2.0.0/gems/thin-1.5.1/lib/thin/connection.rb:79:in `pre_process'
+  vendor/bundle/ruby/2.0.0/gems/thin-1.5.1/lib/thin/connection.rb:54:in `process'
+  vendor/bundle/ruby/2.0.0/gems/thin-1.5.1/lib/thin/connection.rb:39:in `receive_data'
+  vendor/bundle/ruby/2.0.0/gems/eventmachine-1.0.3/lib/eventmachine.rb:187:in `run_machine'
+  vendor/bundle/ruby/2.0.0/gems/eventmachine-1.0.3/lib/eventmachine.rb:187:in `run'
+  vendor/bundle/ruby/2.0.0/gems/thin-1.5.1/lib/thin/backends/base.rb:63:in `start'
+  vendor/bundle/ruby/2.0.0/gems/thin-1.5.1/lib/thin/server.rb:159:in `start'
+  vendor/bundle/ruby/2.0.0/gems/rack-1.5.2/lib/rack/handler/thin.rb:16:in `run'
+  vendor/bundle/ruby/2.0.0/gems/rack-1.5.2/lib/rack/server.rb:264:in `start'
+  vendor/bundle/ruby/2.0.0/gems/railties-4.0.0.rc1/lib/rails/commands/server.rb:84:in `start'
+  vendor/bundle/ruby/2.0.0/gems/railties-4.0.0.rc1/lib/rails/commands.rb:80:in `block in <top (required)>'
+  vendor/bundle/ruby/2.0.0/gems/railties-4.0.0.rc1/lib/rails/commands.rb:75:in `tap'
+  vendor/bundle/ruby/2.0.0/gems/railties-4.0.0.rc1/lib/rails/commands.rb:75:in `<top (required)>'
+  bin/rails:4:in `require'
+  bin/rails:4:in `<main>'
+
+
+I, [2013-05-27T11:31:17.766588 #40888]  INFO -- : Started GET "/" for 210.156.40.65 at 2013-05-27 11:31:17 +0900
+F, [2013-05-27T11:31:17.771631 #40888] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/"):
+  vendor/bundle/ruby/2.0.0/gems/actionpack-4.0.0.rc1/lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  vendor/bundle/ruby/2.0.0/gems/actionpack-4.0.0.rc1/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  vendor/bundle/ruby/2.0.0/gems/railties-4.0.0.rc1/lib/rails/rack/logger.rb:38:in `call_app'
+  vendor/bundle/ruby/2.0.0/gems/railties-4.0.0.rc1/lib/rails/rack/logger.rb:21:in `block in call'
+  vendor/bundle/ruby/2.0.0/gems/activesupport-4.0.0.rc1/lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  vendor/bundle/ruby/2.0.0/gems/activesupport-4.0.0.rc1/lib/active_support/tagged_logging.rb:25:in `tagged'
+  vendor/bundle/ruby/2.0.0/gems/activesupport-4.0.0.rc1/lib/active_support/tagged_logging.rb:67:in `tagged'
+  vendor/bundle/ruby/2.0.0/gems/railties-4.0.0.rc1/lib/rails/rack/logger.rb:21:in `call'
+  vendor/bundle/ruby/2.0.0/gems/actionpack-4.0.0.rc1/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  vendor/bundle/ruby/2.0.0/gems/rack-1.5.2/lib/rack/methodoverride.rb:21:in `call'
+  vendor/bundle/ruby/2.0.0/gems/rack-1.5.2/lib/rack/runtime.rb:17:in `call'
+  vendor/bundle/ruby/2.0.0/gems/activesupport-4.0.0.rc1/lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  vendor/bundle/ruby/2.0.0/gems/actionpack-4.0.0.rc1/lib/action_dispatch/middleware/static.rb:64:in `call'
+  vendor/bundle/ruby/2.0.0/gems/railties-4.0.0.rc1/lib/rails/engine.rb:511:in `call'
+  vendor/bundle/ruby/2.0.0/gems/railties-4.0.0.rc1/lib/rails/application.rb:96:in `call'
+  vendor/bundle/ruby/2.0.0/gems/rack-1.5.2/lib/rack/content_length.rb:14:in `call'
+  vendor/bundle/ruby/2.0.0/gems/thin-1.5.1/lib/thin/connection.rb:81:in `block in pre_process'
+  vendor/bundle/ruby/2.0.0/gems/thin-1.5.1/lib/thin/connection.rb:79:in `catch'
+  vendor/bundle/ruby/2.0.0/gems/thin-1.5.1/lib/thin/connection.rb:79:in `pre_process'
+  vendor/bundle/ruby/2.0.0/gems/thin-1.5.1/lib/thin/connection.rb:54:in `process'
+  vendor/bundle/ruby/2.0.0/gems/thin-1.5.1/lib/thin/connection.rb:39:in `receive_data'
+  vendor/bundle/ruby/2.0.0/gems/eventmachine-1.0.3/lib/eventmachine.rb:187:in `run_machine'
+  vendor/bundle/ruby/2.0.0/gems/eventmachine-1.0.3/lib/eventmachine.rb:187:in `run'
+  vendor/bundle/ruby/2.0.0/gems/thin-1.5.1/lib/thin/backends/base.rb:63:in `start'
+  vendor/bundle/ruby/2.0.0/gems/thin-1.5.1/lib/thin/server.rb:159:in `start'
+  vendor/bundle/ruby/2.0.0/gems/rack-1.5.2/lib/rack/handler/thin.rb:16:in `run'
+  vendor/bundle/ruby/2.0.0/gems/rack-1.5.2/lib/rack/server.rb:264:in `start'
+  vendor/bundle/ruby/2.0.0/gems/railties-4.0.0.rc1/lib/rails/commands/server.rb:84:in `start'
+  vendor/bundle/ruby/2.0.0/gems/railties-4.0.0.rc1/lib/rails/commands.rb:80:in `block in <top (required)>'
+  vendor/bundle/ruby/2.0.0/gems/railties-4.0.0.rc1/lib/rails/commands.rb:75:in `tap'
+  vendor/bundle/ruby/2.0.0/gems/railties-4.0.0.rc1/lib/rails/commands.rb:75:in `<top (required)>'
+  bin/rails:4:in `require'
+  bin/rails:4:in `<main>'
+
+
+I, [2013-05-27T11:35:45.739497 #40888]  INFO -- : Started GET "/pictures" for 210.156.40.65 at 2013-05-27 11:35:45 +0900
+I, [2013-05-27T11:35:45.741185 #40888]  INFO -- : Processing by PicturesController#index as HTML
+I, [2013-05-27T11:35:45.757528 #40888]  INFO -- :   Rendered pictures/index.html.erb within layouts/application (15.2ms)
+I, [2013-05-27T11:35:45.758804 #40888]  INFO -- : Completed 200 OK in 17ms (Views: 16.4ms | ActiveRecord: 0.5ms)
+I, [2013-05-27T12:08:57.739938 #40888]  INFO -- : Started GET "//" for 210.156.40.65 at 2013-05-27 12:08:57 +0900
+F, [2013-05-27T12:08:57.742239 #40888] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/"):
+  vendor/bundle/ruby/2.0.0/gems/actionpack-4.0.0.rc1/lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  vendor/bundle/ruby/2.0.0/gems/actionpack-4.0.0.rc1/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  vendor/bundle/ruby/2.0.0/gems/railties-4.0.0.rc1/lib/rails/rack/logger.rb:38:in `call_app'
+  vendor/bundle/ruby/2.0.0/gems/railties-4.0.0.rc1/lib/rails/rack/logger.rb:21:in `block in call'
+  vendor/bundle/ruby/2.0.0/gems/activesupport-4.0.0.rc1/lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  vendor/bundle/ruby/2.0.0/gems/activesupport-4.0.0.rc1/lib/active_support/tagged_logging.rb:25:in `tagged'
+  vendor/bundle/ruby/2.0.0/gems/activesupport-4.0.0.rc1/lib/active_support/tagged_logging.rb:67:in `tagged'
+  vendor/bundle/ruby/2.0.0/gems/railties-4.0.0.rc1/lib/rails/rack/logger.rb:21:in `call'
+  vendor/bundle/ruby/2.0.0/gems/actionpack-4.0.0.rc1/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  vendor/bundle/ruby/2.0.0/gems/rack-1.5.2/lib/rack/methodoverride.rb:21:in `call'
+  vendor/bundle/ruby/2.0.0/gems/rack-1.5.2/lib/rack/runtime.rb:17:in `call'
+  vendor/bundle/ruby/2.0.0/gems/activesupport-4.0.0.rc1/lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  vendor/bundle/ruby/2.0.0/gems/actionpack-4.0.0.rc1/lib/action_dispatch/middleware/static.rb:64:in `call'
+  vendor/bundle/ruby/2.0.0/gems/railties-4.0.0.rc1/lib/rails/engine.rb:511:in `call'
+  vendor/bundle/ruby/2.0.0/gems/railties-4.0.0.rc1/lib/rails/application.rb:96:in `call'
+  vendor/bundle/ruby/2.0.0/gems/rack-1.5.2/lib/rack/content_length.rb:14:in `call'
+  vendor/bundle/ruby/2.0.0/gems/thin-1.5.1/lib/thin/connection.rb:81:in `block in pre_process'
+  vendor/bundle/ruby/2.0.0/gems/thin-1.5.1/lib/thin/connection.rb:79:in `catch'
+  vendor/bundle/ruby/2.0.0/gems/thin-1.5.1/lib/thin/connection.rb:79:in `pre_process'
+  vendor/bundle/ruby/2.0.0/gems/thin-1.5.1/lib/thin/connection.rb:54:in `process'
+  vendor/bundle/ruby/2.0.0/gems/thin-1.5.1/lib/thin/connection.rb:39:in `receive_data'
+  vendor/bundle/ruby/2.0.0/gems/eventmachine-1.0.3/lib/eventmachine.rb:187:in `run_machine'
+  vendor/bundle/ruby/2.0.0/gems/eventmachine-1.0.3/lib/eventmachine.rb:187:in `run'
+  vendor/bundle/ruby/2.0.0/gems/thin-1.5.1/lib/thin/backends/base.rb:63:in `start'
+  vendor/bundle/ruby/2.0.0/gems/thin-1.5.1/lib/thin/server.rb:159:in `start'
+  vendor/bundle/ruby/2.0.0/gems/rack-1.5.2/lib/rack/handler/thin.rb:16:in `run'
+  vendor/bundle/ruby/2.0.0/gems/rack-1.5.2/lib/rack/server.rb:264:in `start'
+  vendor/bundle/ruby/2.0.0/gems/railties-4.0.0.rc1/lib/rails/commands/server.rb:84:in `start'
+  vendor/bundle/ruby/2.0.0/gems/railties-4.0.0.rc1/lib/rails/commands.rb:80:in `block in <top (required)>'
+  vendor/bundle/ruby/2.0.0/gems/railties-4.0.0.rc1/lib/rails/commands.rb:75:in `tap'
+  vendor/bundle/ruby/2.0.0/gems/railties-4.0.0.rc1/lib/rails/commands.rb:75:in `<top (required)>'
+  bin/rails:4:in `require'
+  bin/rails:4:in `<main>'
+
+
+I, [2013-05-27T12:09:03.969395 #40888]  INFO -- : Started GET "//" for 210.156.40.65 at 2013-05-27 12:09:03 +0900
+F, [2013-05-27T12:09:03.971520 #40888] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/"):
+  vendor/bundle/ruby/2.0.0/gems/actionpack-4.0.0.rc1/lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  vendor/bundle/ruby/2.0.0/gems/actionpack-4.0.0.rc1/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  vendor/bundle/ruby/2.0.0/gems/railties-4.0.0.rc1/lib/rails/rack/logger.rb:38:in `call_app'
+  vendor/bundle/ruby/2.0.0/gems/railties-4.0.0.rc1/lib/rails/rack/logger.rb:21:in `block in call'
+  vendor/bundle/ruby/2.0.0/gems/activesupport-4.0.0.rc1/lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  vendor/bundle/ruby/2.0.0/gems/activesupport-4.0.0.rc1/lib/active_support/tagged_logging.rb:25:in `tagged'
+  vendor/bundle/ruby/2.0.0/gems/activesupport-4.0.0.rc1/lib/active_support/tagged_logging.rb:67:in `tagged'
+  vendor/bundle/ruby/2.0.0/gems/railties-4.0.0.rc1/lib/rails/rack/logger.rb:21:in `call'
+  vendor/bundle/ruby/2.0.0/gems/actionpack-4.0.0.rc1/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  vendor/bundle/ruby/2.0.0/gems/rack-1.5.2/lib/rack/methodoverride.rb:21:in `call'
+  vendor/bundle/ruby/2.0.0/gems/rack-1.5.2/lib/rack/runtime.rb:17:in `call'
+  vendor/bundle/ruby/2.0.0/gems/activesupport-4.0.0.rc1/lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  vendor/bundle/ruby/2.0.0/gems/actionpack-4.0.0.rc1/lib/action_dispatch/middleware/static.rb:64:in `call'
+  vendor/bundle/ruby/2.0.0/gems/railties-4.0.0.rc1/lib/rails/engine.rb:511:in `call'
+  vendor/bundle/ruby/2.0.0/gems/railties-4.0.0.rc1/lib/rails/application.rb:96:in `call'
+  vendor/bundle/ruby/2.0.0/gems/rack-1.5.2/lib/rack/content_length.rb:14:in `call'
+  vendor/bundle/ruby/2.0.0/gems/thin-1.5.1/lib/thin/connection.rb:81:in `block in pre_process'
+  vendor/bundle/ruby/2.0.0/gems/thin-1.5.1/lib/thin/connection.rb:79:in `catch'
+  vendor/bundle/ruby/2.0.0/gems/thin-1.5.1/lib/thin/connection.rb:79:in `pre_process'
+  vendor/bundle/ruby/2.0.0/gems/thin-1.5.1/lib/thin/connection.rb:54:in `process'
+  vendor/bundle/ruby/2.0.0/gems/thin-1.5.1/lib/thin/connection.rb:39:in `receive_data'
+  vendor/bundle/ruby/2.0.0/gems/eventmachine-1.0.3/lib/eventmachine.rb:187:in `run_machine'
+  vendor/bundle/ruby/2.0.0/gems/eventmachine-1.0.3/lib/eventmachine.rb:187:in `run'
+  vendor/bundle/ruby/2.0.0/gems/thin-1.5.1/lib/thin/backends/base.rb:63:in `start'
+  vendor/bundle/ruby/2.0.0/gems/thin-1.5.1/lib/thin/server.rb:159:in `start'
+  vendor/bundle/ruby/2.0.0/gems/rack-1.5.2/lib/rack/handler/thin.rb:16:in `run'
+  vendor/bundle/ruby/2.0.0/gems/rack-1.5.2/lib/rack/server.rb:264:in `start'
+  vendor/bundle/ruby/2.0.0/gems/railties-4.0.0.rc1/lib/rails/commands/server.rb:84:in `start'
+  vendor/bundle/ruby/2.0.0/gems/railties-4.0.0.rc1/lib/rails/commands.rb:80:in `block in <top (required)>'
+  vendor/bundle/ruby/2.0.0/gems/railties-4.0.0.rc1/lib/rails/commands.rb:75:in `tap'
+  vendor/bundle/ruby/2.0.0/gems/railties-4.0.0.rc1/lib/rails/commands.rb:75:in `<top (required)>'
+  bin/rails:4:in `require'
+  bin/rails:4:in `<main>'
+
+
+I, [2013-05-27T12:10:10.326547 #40888]  INFO -- : Started GET "//" for 210.156.40.65 at 2013-05-27 12:10:10 +0900
+F, [2013-05-27T12:10:10.330006 #40888] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/"):
+  vendor/bundle/ruby/2.0.0/gems/actionpack-4.0.0.rc1/lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  vendor/bundle/ruby/2.0.0/gems/actionpack-4.0.0.rc1/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  vendor/bundle/ruby/2.0.0/gems/railties-4.0.0.rc1/lib/rails/rack/logger.rb:38:in `call_app'
+  vendor/bundle/ruby/2.0.0/gems/railties-4.0.0.rc1/lib/rails/rack/logger.rb:21:in `block in call'
+  vendor/bundle/ruby/2.0.0/gems/activesupport-4.0.0.rc1/lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  vendor/bundle/ruby/2.0.0/gems/activesupport-4.0.0.rc1/lib/active_support/tagged_logging.rb:25:in `tagged'
+  vendor/bundle/ruby/2.0.0/gems/activesupport-4.0.0.rc1/lib/active_support/tagged_logging.rb:67:in `tagged'
+  vendor/bundle/ruby/2.0.0/gems/railties-4.0.0.rc1/lib/rails/rack/logger.rb:21:in `call'
+  vendor/bundle/ruby/2.0.0/gems/actionpack-4.0.0.rc1/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  vendor/bundle/ruby/2.0.0/gems/rack-1.5.2/lib/rack/methodoverride.rb:21:in `call'
+  vendor/bundle/ruby/2.0.0/gems/rack-1.5.2/lib/rack/runtime.rb:17:in `call'
+  vendor/bundle/ruby/2.0.0/gems/activesupport-4.0.0.rc1/lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  vendor/bundle/ruby/2.0.0/gems/actionpack-4.0.0.rc1/lib/action_dispatch/middleware/static.rb:64:in `call'
+  vendor/bundle/ruby/2.0.0/gems/railties-4.0.0.rc1/lib/rails/engine.rb:511:in `call'
+  vendor/bundle/ruby/2.0.0/gems/railties-4.0.0.rc1/lib/rails/application.rb:96:in `call'
+  vendor/bundle/ruby/2.0.0/gems/rack-1.5.2/lib/rack/content_length.rb:14:in `call'
+  vendor/bundle/ruby/2.0.0/gems/thin-1.5.1/lib/thin/connection.rb:81:in `block in pre_process'
+  vendor/bundle/ruby/2.0.0/gems/thin-1.5.1/lib/thin/connection.rb:79:in `catch'
+  vendor/bundle/ruby/2.0.0/gems/thin-1.5.1/lib/thin/connection.rb:79:in `pre_process'
+  vendor/bundle/ruby/2.0.0/gems/thin-1.5.1/lib/thin/connection.rb:54:in `process'
+  vendor/bundle/ruby/2.0.0/gems/thin-1.5.1/lib/thin/connection.rb:39:in `receive_data'
+  vendor/bundle/ruby/2.0.0/gems/eventmachine-1.0.3/lib/eventmachine.rb:187:in `run_machine'
+  vendor/bundle/ruby/2.0.0/gems/eventmachine-1.0.3/lib/eventmachine.rb:187:in `run'
+  vendor/bundle/ruby/2.0.0/gems/thin-1.5.1/lib/thin/backends/base.rb:63:in `start'
+  vendor/bundle/ruby/2.0.0/gems/thin-1.5.1/lib/thin/server.rb:159:in `start'
+  vendor/bundle/ruby/2.0.0/gems/rack-1.5.2/lib/rack/handler/thin.rb:16:in `run'
+  vendor/bundle/ruby/2.0.0/gems/rack-1.5.2/lib/rack/server.rb:264:in `start'
+  vendor/bundle/ruby/2.0.0/gems/railties-4.0.0.rc1/lib/rails/commands/server.rb:84:in `start'
+  vendor/bundle/ruby/2.0.0/gems/railties-4.0.0.rc1/lib/rails/commands.rb:80:in `block in <top (required)>'
+  vendor/bundle/ruby/2.0.0/gems/railties-4.0.0.rc1/lib/rails/commands.rb:75:in `tap'
+  vendor/bundle/ruby/2.0.0/gems/railties-4.0.0.rc1/lib/rails/commands.rb:75:in `<top (required)>'
+  bin/rails:4:in `require'
+  bin/rails:4:in `<main>'
+
+
+I, [2013-05-27T12:13:03.267505 #40888]  INFO -- : Started GET "//" for 210.156.40.65 at 2013-05-27 12:13:03 +0900
+F, [2013-05-27T12:13:03.269629 #40888] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/"):
+  vendor/bundle/ruby/2.0.0/gems/actionpack-4.0.0.rc1/lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  vendor/bundle/ruby/2.0.0/gems/actionpack-4.0.0.rc1/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  vendor/bundle/ruby/2.0.0/gems/railties-4.0.0.rc1/lib/rails/rack/logger.rb:38:in `call_app'
+  vendor/bundle/ruby/2.0.0/gems/railties-4.0.0.rc1/lib/rails/rack/logger.rb:21:in `block in call'
+  vendor/bundle/ruby/2.0.0/gems/activesupport-4.0.0.rc1/lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  vendor/bundle/ruby/2.0.0/gems/activesupport-4.0.0.rc1/lib/active_support/tagged_logging.rb:25:in `tagged'
+  vendor/bundle/ruby/2.0.0/gems/activesupport-4.0.0.rc1/lib/active_support/tagged_logging.rb:67:in `tagged'
+  vendor/bundle/ruby/2.0.0/gems/railties-4.0.0.rc1/lib/rails/rack/logger.rb:21:in `call'
+  vendor/bundle/ruby/2.0.0/gems/actionpack-4.0.0.rc1/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  vendor/bundle/ruby/2.0.0/gems/rack-1.5.2/lib/rack/methodoverride.rb:21:in `call'
+  vendor/bundle/ruby/2.0.0/gems/rack-1.5.2/lib/rack/runtime.rb:17:in `call'
+  vendor/bundle/ruby/2.0.0/gems/activesupport-4.0.0.rc1/lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  vendor/bundle/ruby/2.0.0/gems/actionpack-4.0.0.rc1/lib/action_dispatch/middleware/static.rb:64:in `call'
+  vendor/bundle/ruby/2.0.0/gems/railties-4.0.0.rc1/lib/rails/engine.rb:511:in `call'
+  vendor/bundle/ruby/2.0.0/gems/railties-4.0.0.rc1/lib/rails/application.rb:96:in `call'
+  vendor/bundle/ruby/2.0.0/gems/rack-1.5.2/lib/rack/content_length.rb:14:in `call'
+  vendor/bundle/ruby/2.0.0/gems/thin-1.5.1/lib/thin/connection.rb:81:in `block in pre_process'
+  vendor/bundle/ruby/2.0.0/gems/thin-1.5.1/lib/thin/connection.rb:79:in `catch'
+  vendor/bundle/ruby/2.0.0/gems/thin-1.5.1/lib/thin/connection.rb:79:in `pre_process'
+  vendor/bundle/ruby/2.0.0/gems/thin-1.5.1/lib/thin/connection.rb:54:in `process'
+  vendor/bundle/ruby/2.0.0/gems/thin-1.5.1/lib/thin/connection.rb:39:in `receive_data'
+  vendor/bundle/ruby/2.0.0/gems/eventmachine-1.0.3/lib/eventmachine.rb:187:in `run_machine'
+  vendor/bundle/ruby/2.0.0/gems/eventmachine-1.0.3/lib/eventmachine.rb:187:in `run'
+  vendor/bundle/ruby/2.0.0/gems/thin-1.5.1/lib/thin/backends/base.rb:63:in `start'
+  vendor/bundle/ruby/2.0.0/gems/thin-1.5.1/lib/thin/server.rb:159:in `start'
+  vendor/bundle/ruby/2.0.0/gems/rack-1.5.2/lib/rack/handler/thin.rb:16:in `run'
+  vendor/bundle/ruby/2.0.0/gems/rack-1.5.2/lib/rack/server.rb:264:in `start'
+  vendor/bundle/ruby/2.0.0/gems/railties-4.0.0.rc1/lib/rails/commands/server.rb:84:in `start'
+  vendor/bundle/ruby/2.0.0/gems/railties-4.0.0.rc1/lib/rails/commands.rb:80:in `block in <top (required)>'
+  vendor/bundle/ruby/2.0.0/gems/railties-4.0.0.rc1/lib/rails/commands.rb:75:in `tap'
+  vendor/bundle/ruby/2.0.0/gems/railties-4.0.0.rc1/lib/rails/commands.rb:75:in `<top (required)>'
+  bin/rails:4:in `require'
+  bin/rails:4:in `<main>'
+
+
+I, [2013-05-27T12:17:06.924223 #40888]  INFO -- : Started GET "//" for 210.156.40.65 at 2013-05-27 12:17:06 +0900
+F, [2013-05-27T12:17:06.926423 #40888] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/"):
+  vendor/bundle/ruby/2.0.0/gems/actionpack-4.0.0.rc1/lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  vendor/bundle/ruby/2.0.0/gems/actionpack-4.0.0.rc1/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  vendor/bundle/ruby/2.0.0/gems/railties-4.0.0.rc1/lib/rails/rack/logger.rb:38:in `call_app'
+  vendor/bundle/ruby/2.0.0/gems/railties-4.0.0.rc1/lib/rails/rack/logger.rb:21:in `block in call'
+  vendor/bundle/ruby/2.0.0/gems/activesupport-4.0.0.rc1/lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  vendor/bundle/ruby/2.0.0/gems/activesupport-4.0.0.rc1/lib/active_support/tagged_logging.rb:25:in `tagged'
+  vendor/bundle/ruby/2.0.0/gems/activesupport-4.0.0.rc1/lib/active_support/tagged_logging.rb:67:in `tagged'
+  vendor/bundle/ruby/2.0.0/gems/railties-4.0.0.rc1/lib/rails/rack/logger.rb:21:in `call'
+  vendor/bundle/ruby/2.0.0/gems/actionpack-4.0.0.rc1/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  vendor/bundle/ruby/2.0.0/gems/rack-1.5.2/lib/rack/methodoverride.rb:21:in `call'
+  vendor/bundle/ruby/2.0.0/gems/rack-1.5.2/lib/rack/runtime.rb:17:in `call'
+  vendor/bundle/ruby/2.0.0/gems/activesupport-4.0.0.rc1/lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  vendor/bundle/ruby/2.0.0/gems/actionpack-4.0.0.rc1/lib/action_dispatch/middleware/static.rb:64:in `call'
+  vendor/bundle/ruby/2.0.0/gems/railties-4.0.0.rc1/lib/rails/engine.rb:511:in `call'
+  vendor/bundle/ruby/2.0.0/gems/railties-4.0.0.rc1/lib/rails/application.rb:96:in `call'
+  vendor/bundle/ruby/2.0.0/gems/rack-1.5.2/lib/rack/content_length.rb:14:in `call'
+  vendor/bundle/ruby/2.0.0/gems/thin-1.5.1/lib/thin/connection.rb:81:in `block in pre_process'
+  vendor/bundle/ruby/2.0.0/gems/thin-1.5.1/lib/thin/connection.rb:79:in `catch'
+  vendor/bundle/ruby/2.0.0/gems/thin-1.5.1/lib/thin/connection.rb:79:in `pre_process'
+  vendor/bundle/ruby/2.0.0/gems/thin-1.5.1/lib/thin/connection.rb:54:in `process'
+  vendor/bundle/ruby/2.0.0/gems/thin-1.5.1/lib/thin/connection.rb:39:in `receive_data'
+  vendor/bundle/ruby/2.0.0/gems/eventmachine-1.0.3/lib/eventmachine.rb:187:in `run_machine'
+  vendor/bundle/ruby/2.0.0/gems/eventmachine-1.0.3/lib/eventmachine.rb:187:in `run'
+  vendor/bundle/ruby/2.0.0/gems/thin-1.5.1/lib/thin/backends/base.rb:63:in `start'
+  vendor/bundle/ruby/2.0.0/gems/thin-1.5.1/lib/thin/server.rb:159:in `start'
+  vendor/bundle/ruby/2.0.0/gems/rack-1.5.2/lib/rack/handler/thin.rb:16:in `run'
+  vendor/bundle/ruby/2.0.0/gems/rack-1.5.2/lib/rack/server.rb:264:in `start'
+  vendor/bundle/ruby/2.0.0/gems/railties-4.0.0.rc1/lib/rails/commands/server.rb:84:in `start'
+  vendor/bundle/ruby/2.0.0/gems/railties-4.0.0.rc1/lib/rails/commands.rb:80:in `block in <top (required)>'
+  vendor/bundle/ruby/2.0.0/gems/railties-4.0.0.rc1/lib/rails/commands.rb:75:in `tap'
+  vendor/bundle/ruby/2.0.0/gems/railties-4.0.0.rc1/lib/rails/commands.rb:75:in `<top (required)>'
+  bin/rails:4:in `require'
+  bin/rails:4:in `<main>'
+
+
+I, [2013-05-27T12:19:41.448763 #40888]  INFO -- : Started GET "//" for 210.156.40.65 at 2013-05-27 12:19:41 +0900
+F, [2013-05-27T12:19:41.450988 #40888] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/"):
+  vendor/bundle/ruby/2.0.0/gems/actionpack-4.0.0.rc1/lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  vendor/bundle/ruby/2.0.0/gems/actionpack-4.0.0.rc1/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  vendor/bundle/ruby/2.0.0/gems/railties-4.0.0.rc1/lib/rails/rack/logger.rb:38:in `call_app'
+  vendor/bundle/ruby/2.0.0/gems/railties-4.0.0.rc1/lib/rails/rack/logger.rb:21:in `block in call'
+  vendor/bundle/ruby/2.0.0/gems/activesupport-4.0.0.rc1/lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  vendor/bundle/ruby/2.0.0/gems/activesupport-4.0.0.rc1/lib/active_support/tagged_logging.rb:25:in `tagged'
+  vendor/bundle/ruby/2.0.0/gems/activesupport-4.0.0.rc1/lib/active_support/tagged_logging.rb:67:in `tagged'
+  vendor/bundle/ruby/2.0.0/gems/railties-4.0.0.rc1/lib/rails/rack/logger.rb:21:in `call'
+  vendor/bundle/ruby/2.0.0/gems/actionpack-4.0.0.rc1/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  vendor/bundle/ruby/2.0.0/gems/rack-1.5.2/lib/rack/methodoverride.rb:21:in `call'
+  vendor/bundle/ruby/2.0.0/gems/rack-1.5.2/lib/rack/runtime.rb:17:in `call'
+  vendor/bundle/ruby/2.0.0/gems/activesupport-4.0.0.rc1/lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  vendor/bundle/ruby/2.0.0/gems/actionpack-4.0.0.rc1/lib/action_dispatch/middleware/static.rb:64:in `call'
+  vendor/bundle/ruby/2.0.0/gems/railties-4.0.0.rc1/lib/rails/engine.rb:511:in `call'
+  vendor/bundle/ruby/2.0.0/gems/railties-4.0.0.rc1/lib/rails/application.rb:96:in `call'
+  vendor/bundle/ruby/2.0.0/gems/rack-1.5.2/lib/rack/content_length.rb:14:in `call'
+  vendor/bundle/ruby/2.0.0/gems/thin-1.5.1/lib/thin/connection.rb:81:in `block in pre_process'
+  vendor/bundle/ruby/2.0.0/gems/thin-1.5.1/lib/thin/connection.rb:79:in `catch'
+  vendor/bundle/ruby/2.0.0/gems/thin-1.5.1/lib/thin/connection.rb:79:in `pre_process'
+  vendor/bundle/ruby/2.0.0/gems/thin-1.5.1/lib/thin/connection.rb:54:in `process'
+  vendor/bundle/ruby/2.0.0/gems/thin-1.5.1/lib/thin/connection.rb:39:in `receive_data'
+  vendor/bundle/ruby/2.0.0/gems/eventmachine-1.0.3/lib/eventmachine.rb:187:in `run_machine'
+  vendor/bundle/ruby/2.0.0/gems/eventmachine-1.0.3/lib/eventmachine.rb:187:in `run'
+  vendor/bundle/ruby/2.0.0/gems/thin-1.5.1/lib/thin/backends/base.rb:63:in `start'
+  vendor/bundle/ruby/2.0.0/gems/thin-1.5.1/lib/thin/server.rb:159:in `start'
+  vendor/bundle/ruby/2.0.0/gems/rack-1.5.2/lib/rack/handler/thin.rb:16:in `run'
+  vendor/bundle/ruby/2.0.0/gems/rack-1.5.2/lib/rack/server.rb:264:in `start'
+  vendor/bundle/ruby/2.0.0/gems/railties-4.0.0.rc1/lib/rails/commands/server.rb:84:in `start'
+  vendor/bundle/ruby/2.0.0/gems/railties-4.0.0.rc1/lib/rails/commands.rb:80:in `block in <top (required)>'
+  vendor/bundle/ruby/2.0.0/gems/railties-4.0.0.rc1/lib/rails/commands.rb:75:in `tap'
+  vendor/bundle/ruby/2.0.0/gems/railties-4.0.0.rc1/lib/rails/commands.rb:75:in `<top (required)>'
+  bin/rails:4:in `require'
+  bin/rails:4:in `<main>'
+
+
+I, [2013-05-27T12:20:05.325581 #40888]  INFO -- : Started POST "/pictures" for 36.55.228.139 at 2013-05-27 12:20:05 +0900
+I, [2013-05-27T12:20:05.372406 #40888]  INFO -- : Processing by PicturesController#create as */*
+I, [2013-05-27T12:20:05.372653 #40888]  INFO -- :   Parameters: {"picture"=>{"avatar"=>#<ActionDispatch::Http::UploadedFile:0x002b4db5606e80 @tempfile=#<Tempfile:/tmp/RackMultipart20130527-40888-1k19vp>, @original_filename="phpzknpws", @content_type="image/jpeg; charset=binary", @headers="Content-Disposition: form-data; name=\"picture[avatar]\"; filename=\"phpzknpws\"\r\nContent-Type: image/jpeg; charset=binary\r\n">}}
+I, [2013-05-27T12:20:05.380822 #40888]  INFO -- : Command :: identify -format '%wx%h,%[exif:orientation]' '/tmp/phpzknpws20130527-40888-1n5zo9q[0]'
+I, [2013-05-27T12:20:05.505238 #40888]  INFO -- : Command :: identify -format %m '/tmp/phpzknpws20130527-40888-1n5zo9q[0]'
+I, [2013-05-27T12:20:05.542470 #40888]  INFO -- : Command :: identify -format %m '/tmp/phpzknpws20130527-40888-1n5zo9q[0]'
+I, [2013-05-27T12:20:05.580598 #40888]  INFO -- : Command :: identify -format %m '/tmp/phpzknpws20130527-40888-1n5zo9q[0]'
+I, [2013-05-27T12:20:05.618033 #40888]  INFO -- : Command :: convert '/tmp/phpzknpws20130527-40888-1n5zo9q[0]' -auto-orient -resize "640x640" '/tmp/phpzknpws20130527-40888-1n5zo9q20130527-40888-faoeec'
+I, [2013-05-27T12:20:08.192565 #40888]  INFO -- : Command :: file -b --mime '/tmp/phpzknpws20130527-40888-1n5zo9q20130527-40888-faoeec'
+I, [2013-05-27T12:20:08.276330 #40888]  INFO -- : Command :: identify -format '%wx%h,%[exif:orientation]' '/tmp/phpzknpws20130527-40888-1n5zo9q[0]'
+I, [2013-05-27T12:20:08.495257 #40888]  INFO -- : Command :: identify -format %m '/tmp/phpzknpws20130527-40888-1n5zo9q[0]'
+I, [2013-05-27T12:20:08.606223 #40888]  INFO -- : Command :: identify -format %m '/tmp/phpzknpws20130527-40888-1n5zo9q[0]'
+I, [2013-05-27T12:20:08.702567 #40888]  INFO -- : Command :: identify -format %m '/tmp/phpzknpws20130527-40888-1n5zo9q[0]'
+I, [2013-05-27T12:20:08.795982 #40888]  INFO -- : Command :: convert '/tmp/phpzknpws20130527-40888-1n5zo9q[0]' -auto-orient -resize "320x320>" '/tmp/phpzknpws20130527-40888-1n5zo9q20130527-40888-uw27dd'
+I, [2013-05-27T12:20:11.036728 #40888]  INFO -- : Command :: file -b --mime '/tmp/phpzknpws20130527-40888-1n5zo9q20130527-40888-uw27dd'
+I, [2013-05-27T12:20:11.122830 #40888]  INFO -- : Command :: identify -format '%wx%h,%[exif:orientation]' '/tmp/phpzknpws20130527-40888-1n5zo9q[0]'
+I, [2013-05-27T12:20:11.337697 #40888]  INFO -- : Command :: identify -format %m '/tmp/phpzknpws20130527-40888-1n5zo9q[0]'
+I, [2013-05-27T12:20:11.433669 #40888]  INFO -- : Command :: identify -format %m '/tmp/phpzknpws20130527-40888-1n5zo9q[0]'
+I, [2013-05-27T12:20:11.532841 #40888]  INFO -- : Command :: identify -format %m '/tmp/phpzknpws20130527-40888-1n5zo9q[0]'
+I, [2013-05-27T12:20:11.641191 #40888]  INFO -- : Command :: convert '/tmp/phpzknpws20130527-40888-1n5zo9q[0]' -auto-orient -resize "160x160>" '/tmp/phpzknpws20130527-40888-1n5zo9q20130527-40888-t5zmy5'
+I, [2013-05-27T12:20:14.064889 #40888]  INFO -- : Command :: file -b --mime '/tmp/phpzknpws20130527-40888-1n5zo9q20130527-40888-t5zmy5'
+I, [2013-05-27T12:20:14.174312 #40888]  INFO -- : [paperclip] Saving attachments.
+I, [2013-05-27T12:20:14.250434 #40888]  INFO -- :   Rendered pictures/show.json.jbuilder (19.0ms)
+I, [2013-05-27T12:20:14.251114 #40888]  INFO -- : Completed 201 Created in 8878ms (Views: 23.7ms | ActiveRecord: 21.8ms)
+I, [2013-05-27T12:35:33.169033 #40888]  INFO -- : Started POST "/pictures" for 36.55.228.139 at 2013-05-27 12:35:33 +0900
+I, [2013-05-27T12:35:33.177205 #40888]  INFO -- : Processing by PicturesController#create as */*
+I, [2013-05-27T12:35:33.177514 #40888]  INFO -- :   Parameters: {"picture"=>{"avatar"=>#<ActionDispatch::Http::UploadedFile:0x002b4db5b65d40 @tempfile=#<Tempfile:/tmp/RackMultipart20130527-40888-1etqfx>, @original_filename="php9bOBFj", @content_type="image/jpeg; charset=binary", @headers="Content-Disposition: form-data; name=\"picture[avatar]\"; filename=\"php9bOBFj\"\r\nContent-Type: image/jpeg; charset=binary\r\n">}}
+I, [2013-05-27T12:35:33.184702 #40888]  INFO -- : Command :: identify -format '%wx%h,%[exif:orientation]' '/tmp/php9bOBFj20130527-40888-pyvr2e[0]'
+I, [2013-05-27T12:35:33.280247 #40888]  INFO -- : Command :: identify -format %m '/tmp/php9bOBFj20130527-40888-pyvr2e[0]'
+I, [2013-05-27T12:35:33.319153 #40888]  INFO -- : Command :: identify -format %m '/tmp/php9bOBFj20130527-40888-pyvr2e[0]'
+I, [2013-05-27T12:35:33.357365 #40888]  INFO -- : Command :: identify -format %m '/tmp/php9bOBFj20130527-40888-pyvr2e[0]'
+I, [2013-05-27T12:35:33.394569 #40888]  INFO -- : Command :: convert '/tmp/php9bOBFj20130527-40888-pyvr2e[0]' -auto-orient -resize "640x640" '/tmp/php9bOBFj20130527-40888-pyvr2e20130527-40888-157syyp'
+I, [2013-05-27T12:35:37.206130 #40888]  INFO -- : Command :: file -b --mime '/tmp/php9bOBFj20130527-40888-pyvr2e20130527-40888-157syyp'
+I, [2013-05-27T12:35:37.301091 #40888]  INFO -- : Command :: identify -format '%wx%h,%[exif:orientation]' '/tmp/php9bOBFj20130527-40888-pyvr2e[0]'
+I, [2013-05-27T12:35:37.572307 #40888]  INFO -- : Command :: identify -format %m '/tmp/php9bOBFj20130527-40888-pyvr2e[0]'
+I, [2013-05-27T12:35:37.667092 #40888]  INFO -- : Command :: identify -format %m '/tmp/php9bOBFj20130527-40888-pyvr2e[0]'
+I, [2013-05-27T12:35:37.763006 #40888]  INFO -- : Command :: identify -format %m '/tmp/php9bOBFj20130527-40888-pyvr2e[0]'
+I, [2013-05-27T12:35:37.855416 #40888]  INFO -- : Command :: convert '/tmp/php9bOBFj20130527-40888-pyvr2e[0]' -auto-orient -resize "320x320>" '/tmp/php9bOBFj20130527-40888-pyvr2e20130527-40888-1bv6i2l'
+I, [2013-05-27T12:35:40.728360 #40888]  INFO -- : Command :: file -b --mime '/tmp/php9bOBFj20130527-40888-pyvr2e20130527-40888-1bv6i2l'
+I, [2013-05-27T12:35:40.808056 #40888]  INFO -- : Command :: identify -format '%wx%h,%[exif:orientation]' '/tmp/php9bOBFj20130527-40888-pyvr2e[0]'
+I, [2013-05-27T12:35:41.017416 #40888]  INFO -- : Command :: identify -format %m '/tmp/php9bOBFj20130527-40888-pyvr2e[0]'
+I, [2013-05-27T12:35:41.106932 #40888]  INFO -- : Command :: identify -format %m '/tmp/php9bOBFj20130527-40888-pyvr2e[0]'
+I, [2013-05-27T12:35:41.197059 #40888]  INFO -- : Command :: identify -format %m '/tmp/php9bOBFj20130527-40888-pyvr2e[0]'
+I, [2013-05-27T12:35:41.291099 #40888]  INFO -- : Command :: convert '/tmp/php9bOBFj20130527-40888-pyvr2e[0]' -auto-orient -resize "160x160>" '/tmp/php9bOBFj20130527-40888-pyvr2e20130527-40888-1xppdfc'
+I, [2013-05-27T12:35:43.383419 #40888]  INFO -- : Command :: file -b --mime '/tmp/php9bOBFj20130527-40888-pyvr2e20130527-40888-1xppdfc'
+I, [2013-05-27T12:35:43.600907 #40888]  INFO -- : [paperclip] Saving attachments.
+I, [2013-05-27T12:35:43.656375 #40888]  INFO -- :   Rendered pictures/show.json.jbuilder (3.4ms)
+I, [2013-05-27T12:35:43.656972 #40888]  INFO -- : Completed 201 Created in 10479ms (Views: 5.6ms | ActiveRecord: 0.9ms)
+I, [2013-05-27T12:35:59.972296 #40888]  INFO -- : Started POST "/pictures" for 36.55.228.139 at 2013-05-27 12:35:59 +0900
+I, [2013-05-27T12:36:00.018965 #40888]  INFO -- : Processing by PicturesController#create as */*
+I, [2013-05-27T12:36:00.019249 #40888]  INFO -- :   Parameters: {"picture"=>{"avatar"=>#<ActionDispatch::Http::UploadedFile:0x002b4db55fcf70 @tempfile=#<Tempfile:/tmp/RackMultipart20130527-40888-1no6swu>, @original_filename="phpwNMzrb", @content_type="image/jpeg; charset=binary", @headers="Content-Disposition: form-data; name=\"picture[avatar]\"; filename=\"phpwNMzrb\"\r\nContent-Type: image/jpeg; charset=binary\r\n">}}
+I, [2013-05-27T12:36:00.026085 #40888]  INFO -- : Command :: identify -format '%wx%h,%[exif:orientation]' '/tmp/phpwNMzrb20130527-40888-19lwwfh[0]'
+I, [2013-05-27T12:36:00.117681 #40888]  INFO -- : Command :: identify -format %m '/tmp/phpwNMzrb20130527-40888-19lwwfh[0]'
+I, [2013-05-27T12:36:00.153753 #40888]  INFO -- : Command :: identify -format %m '/tmp/phpwNMzrb20130527-40888-19lwwfh[0]'
+I, [2013-05-27T12:36:00.189314 #40888]  INFO -- : Command :: identify -format %m '/tmp/phpwNMzrb20130527-40888-19lwwfh[0]'
+I, [2013-05-27T12:36:00.225198 #40888]  INFO -- : Command :: convert '/tmp/phpwNMzrb20130527-40888-19lwwfh[0]' -auto-orient -resize "640x640" '/tmp/phpwNMzrb20130527-40888-19lwwfh20130527-40888-19s6dya'
+I, [2013-05-27T12:36:02.940224 #40888]  INFO -- : Command :: file -b --mime '/tmp/phpwNMzrb20130527-40888-19lwwfh20130527-40888-19s6dya'
+I, [2013-05-27T12:36:03.026944 #40888]  INFO -- : Command :: identify -format '%wx%h,%[exif:orientation]' '/tmp/phpwNMzrb20130527-40888-19lwwfh[0]'
+I, [2013-05-27T12:36:03.244253 #40888]  INFO -- : Command :: identify -format %m '/tmp/phpwNMzrb20130527-40888-19lwwfh[0]'
+I, [2013-05-27T12:36:03.341164 #40888]  INFO -- : Command :: identify -format %m '/tmp/phpwNMzrb20130527-40888-19lwwfh[0]'
+I, [2013-05-27T12:36:03.433047 #40888]  INFO -- : Command :: identify -format %m '/tmp/phpwNMzrb20130527-40888-19lwwfh[0]'
+I, [2013-05-27T12:36:03.529045 #40888]  INFO -- : Command :: convert '/tmp/phpwNMzrb20130527-40888-19lwwfh[0]' -auto-orient -resize "320x320>" '/tmp/phpwNMzrb20130527-40888-19lwwfh20130527-40888-m73u7r'
+I, [2013-05-27T12:36:05.644931 #40888]  INFO -- : Command :: file -b --mime '/tmp/phpwNMzrb20130527-40888-19lwwfh20130527-40888-m73u7r'
+I, [2013-05-27T12:36:05.724927 #40888]  INFO -- : Command :: identify -format '%wx%h,%[exif:orientation]' '/tmp/phpwNMzrb20130527-40888-19lwwfh[0]'
+I, [2013-05-27T12:36:05.936850 #40888]  INFO -- : Command :: identify -format %m '/tmp/phpwNMzrb20130527-40888-19lwwfh[0]'
+I, [2013-05-27T12:36:06.032913 #40888]  INFO -- : Command :: identify -format %m '/tmp/phpwNMzrb20130527-40888-19lwwfh[0]'
+I, [2013-05-27T12:36:06.125190 #40888]  INFO -- : Command :: identify -format %m '/tmp/phpwNMzrb20130527-40888-19lwwfh[0]'
+I, [2013-05-27T12:36:06.220780 #40888]  INFO -- : Command :: convert '/tmp/phpwNMzrb20130527-40888-19lwwfh[0]' -auto-orient -resize "160x160>" '/tmp/phpwNMzrb20130527-40888-19lwwfh20130527-40888-1ax6ejh'
+I, [2013-05-27T12:36:08.361179 #40888]  INFO -- : Command :: file -b --mime '/tmp/phpwNMzrb20130527-40888-19lwwfh20130527-40888-1ax6ejh'
+I, [2013-05-27T12:36:08.441505 #40888]  INFO -- : [paperclip] Saving attachments.
+I, [2013-05-27T12:36:08.519860 #40888]  INFO -- :   Rendered pictures/show.json.jbuilder (7.0ms)
+I, [2013-05-27T12:36:08.520561 #40888]  INFO -- : Completed 201 Created in 8501ms (Views: 9.5ms | ActiveRecord: 16.6ms)
+I, [2013-05-27T12:36:30.233651 #40888]  INFO -- : Started POST "/pictures" for 36.55.228.139 at 2013-05-27 12:36:30 +0900
+I, [2013-05-27T12:36:30.240259 #40888]  INFO -- : Processing by PicturesController#create as */*
+I, [2013-05-27T12:36:30.240469 #40888]  INFO -- :   Parameters: {"picture"=>{"avatar"=>#<ActionDispatch::Http::UploadedFile:0x002b4db59dcd48 @tempfile=#<Tempfile:/tmp/RackMultipart20130527-40888-s7bc04>, @original_filename="phpFygvw7", @content_type="image/jpeg; charset=binary", @headers="Content-Disposition: form-data; name=\"picture[avatar]\"; filename=\"phpFygvw7\"\r\nContent-Type: image/jpeg; charset=binary\r\n">}}
+I, [2013-05-27T12:36:30.247262 #40888]  INFO -- : Command :: identify -format '%wx%h,%[exif:orientation]' '/tmp/phpFygvw720130527-40888-1kto2nk[0]'
+I, [2013-05-27T12:36:30.335874 #40888]  INFO -- : Command :: identify -format %m '/tmp/phpFygvw720130527-40888-1kto2nk[0]'
+I, [2013-05-27T12:36:30.370055 #40888]  INFO -- : Command :: identify -format %m '/tmp/phpFygvw720130527-40888-1kto2nk[0]'
+I, [2013-05-27T12:36:30.403659 #40888]  INFO -- : Command :: identify -format %m '/tmp/phpFygvw720130527-40888-1kto2nk[0]'
+I, [2013-05-27T12:36:30.439754 #40888]  INFO -- : Command :: convert '/tmp/phpFygvw720130527-40888-1kto2nk[0]' -auto-orient -resize "640x640" '/tmp/phpFygvw720130527-40888-1kto2nk20130527-40888-1n9pl4t'
+I, [2013-05-27T12:36:33.953424 #40888]  INFO -- : Command :: file -b --mime '/tmp/phpFygvw720130527-40888-1kto2nk20130527-40888-1n9pl4t'
+I, [2013-05-27T12:36:34.084556 #40888]  INFO -- : Command :: identify -format '%wx%h,%[exif:orientation]' '/tmp/phpFygvw720130527-40888-1kto2nk[0]'
+I, [2013-05-27T12:36:34.306137 #40888]  INFO -- : Command :: identify -format %m '/tmp/phpFygvw720130527-40888-1kto2nk[0]'
+I, [2013-05-27T12:36:34.399826 #40888]  INFO -- : Command :: identify -format %m '/tmp/phpFygvw720130527-40888-1kto2nk[0]'
+I, [2013-05-27T12:36:34.487798 #40888]  INFO -- : Command :: identify -format %m '/tmp/phpFygvw720130527-40888-1kto2nk[0]'
+I, [2013-05-27T12:36:34.576103 #40888]  INFO -- : Command :: convert '/tmp/phpFygvw720130527-40888-1kto2nk[0]' -auto-orient -resize "320x320>" '/tmp/phpFygvw720130527-40888-1kto2nk20130527-40888-whej6v'
+I, [2013-05-27T12:36:36.533169 #40888]  INFO -- : Command :: file -b --mime '/tmp/phpFygvw720130527-40888-1kto2nk20130527-40888-whej6v'
+I, [2013-05-27T12:36:36.608319 #40888]  INFO -- : Command :: identify -format '%wx%h,%[exif:orientation]' '/tmp/phpFygvw720130527-40888-1kto2nk[0]'
+I, [2013-05-27T12:36:36.816658 #40888]  INFO -- : Command :: identify -format %m '/tmp/phpFygvw720130527-40888-1kto2nk[0]'
+I, [2013-05-27T12:36:36.915849 #40888]  INFO -- : Command :: identify -format %m '/tmp/phpFygvw720130527-40888-1kto2nk[0]'
+I, [2013-05-27T12:36:37.011724 #40888]  INFO -- : Command :: identify -format %m '/tmp/phpFygvw720130527-40888-1kto2nk[0]'
+I, [2013-05-27T12:36:37.107766 #40888]  INFO -- : Command :: convert '/tmp/phpFygvw720130527-40888-1kto2nk[0]' -auto-orient -resize "160x160>" '/tmp/phpFygvw720130527-40888-1kto2nk20130527-40888-x91p6'
+I, [2013-05-27T12:36:39.323382 #40888]  INFO -- : Command :: file -b --mime '/tmp/phpFygvw720130527-40888-1kto2nk20130527-40888-x91p6'
+I, [2013-05-27T12:36:39.409227 #40888]  INFO -- : [paperclip] Saving attachments.
+I, [2013-05-27T12:36:39.585075 #40888]  INFO -- :   Rendered pictures/show.json.jbuilder (2.9ms)
+I, [2013-05-27T12:36:39.585726 #40888]  INFO -- : Completed 201 Created in 9345ms (Views: 5.4ms | ActiveRecord: 14.1ms)
+I, [2013-05-27T17:56:38.890179 #40888]  INFO -- : Started GET "/pictures" for 210.156.40.65 at 2013-05-27 17:56:38 +0900
+I, [2013-05-27T17:56:38.892816 #40888]  INFO -- : Processing by PicturesController#index as HTML
+I, [2013-05-27T17:56:38.922679 #40888]  INFO -- :   Rendered pictures/index.html.erb within layouts/application (28.7ms)
+I, [2013-05-27T17:56:38.924343 #40888]  INFO -- : Completed 200 OK in 31ms (Views: 30.1ms | ActiveRecord: 0.6ms)
+I, [2013-05-27T22:43:38.713936 #40888]  INFO -- : Started GET "/pictures" for 124.84.117.52 at 2013-05-27 22:43:38 +0900
+I, [2013-05-27T22:43:38.715662 #40888]  INFO -- : Processing by PicturesController#index as HTML
+I, [2013-05-27T22:43:38.747036 #40888]  INFO -- :   Rendered pictures/index.html.erb within layouts/application (29.6ms)
+I, [2013-05-27T22:43:38.748550 #40888]  INFO -- : Completed 200 OK in 33ms (Views: 31.3ms | ActiveRecord: 0.5ms)
+I, [2013-05-28T00:04:08.072465 #40888]  INFO -- : Started GET "/pictures" for 124.84.117.52 at 2013-05-28 00:04:08 +0900
+I, [2013-05-28T00:04:08.075065 #40888]  INFO -- : Processing by PicturesController#index as HTML
+I, [2013-05-28T00:04:08.110062 #40888]  INFO -- :   Rendered pictures/index.html.erb within layouts/application (33.2ms)
+I, [2013-05-28T00:04:08.111601 #40888]  INFO -- : Completed 200 OK in 36ms (Views: 34.7ms | ActiveRecord: 0.6ms)
+I, [2013-05-28T12:16:08.173877 #40888]  INFO -- : Started GET "/pictures" for 210.156.40.65 at 2013-05-28 12:16:08 +0900
+I, [2013-05-28T12:16:08.175756 #40888]  INFO -- : Processing by PicturesController#index as HTML
+I, [2013-05-28T12:16:08.205696 #40888]  INFO -- :   Rendered pictures/index.html.erb within layouts/application (28.0ms)
+I, [2013-05-28T12:16:08.207223 #40888]  INFO -- : Completed 200 OK in 31ms (Views: 29.7ms | ActiveRecord: 0.5ms)
+Exiting
